@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Welcome to Livewire Demo') <!-- Dynamic Title -->
+@section('title', 'Create User') <!-- Dynamic Title -->
 
 @section('content')
     <!-- Include Livewire Counter Component -->
-    @livewire('welcome')
+    @livewire('create-user')
 @endsection
+
+
